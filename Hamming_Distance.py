@@ -25,7 +25,7 @@ class Solution(object):
         #one line code:
         return bin(x^y).count('1')
         
-        #another solution:
+        #Another solution:
         '''
         res = 0
         for c in str(bin(x ^ y)):
